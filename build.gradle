@@ -64,6 +64,9 @@ subprojects {
         maven {
             url = 'https://repo.viaversion.com'
         }
+        maven {
+            url = uri("https://repo.opencollab.dev/main/")
+        }
     }
 
     dependencies {

@@ -4,7 +4,7 @@ repositories {
         url = "https://repo.viaversion.com"
     }
     maven {
-        url = "https://repo.opencollab.dev/main/"
+        url = uri("https://repo.opencollab.dev/main/")
     }
 }
 
@@ -42,7 +42,7 @@ dependencies {
     testImplementation "com.google.guava:guava:17.0"
     compileOnly "com.viaversion:viaversion-api:4.0.0"
     compileOnly(group: "org.geysermc.geyser", name: "api", version: "2.1.0-SNAPSHOT")
-    compileOnly "org.geysermc.floodgate:api:2.0-SNAPSHOT"
+    compileOnly "org.geysermc.floodgate:api:2.2.5-SNAPSHOT"
 }
 
 processResources {
